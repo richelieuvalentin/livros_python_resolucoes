@@ -9,4 +9,10 @@ if a > b:
 else:
     print('b é maior que a')
 """
+a = int(input('Digite um numero: '))
+b = int(input('Digite outro numero: '))
 
+if a <= b:
+    print("b é maior ou igual que a")
+else:
+    print("a é maior que b")
