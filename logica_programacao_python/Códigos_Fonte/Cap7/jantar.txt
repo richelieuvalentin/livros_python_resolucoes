@@ -1,0 +1,5 @@
+Item 1: 1 garrafa - vinho tinto
+Item 2: 200 gramas - queijo gorgonzola
+Item 3: 1 unidade - queijo camembert
+Item 4: 1 cabeça - couve-flor
+Item 5: 1 unidade - berinjela

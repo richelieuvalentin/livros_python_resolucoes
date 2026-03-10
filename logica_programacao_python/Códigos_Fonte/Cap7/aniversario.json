@@ -1,0 +1,32 @@
+{
+    "Item 1": {
+        "qtde": 2,
+        "unidade": "litros",
+        "item": "suco de goiaba"
+    },
+    "Item 2": {
+        "qtde": 2,
+        "unidade": "litros",
+        "item": "sucos de uva"
+    },
+    "Item 3": {
+        "qtde": 25,
+        "unidade": "unidades",
+        "item": "miniquibe"
+    },
+    "Item 4": {
+        "qtde": 25,
+        "unidade": "unidades",
+        "item": "mini coxinha de frango"
+    },
+    "Item 5": {
+        "qtde": 25,
+        "unidade": "unidades",
+        "item": "brigadeiro"
+    },
+    "Item 6": {
+        "qtde": 2,
+        "unidade": "pacotes",
+        "item": "guardanapos"
+    }
+}

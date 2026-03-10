@@ -1,0 +1,5 @@
+print("Lendo o arquivo inteiro para uma única string: ")
+arquivo = open('Drummond.txt', 'rt', encoding='utf8')
+texto = arquivo.read()
+print(texto)
+arquivo.close()
