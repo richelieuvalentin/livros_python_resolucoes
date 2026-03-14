@@ -26,6 +26,15 @@ Novos conteúdos são adicionados à medida que cada obra é estudada, principal
 
 *Algoritmos e lógica de programação para iniciantes*
 
+---
+
+<p>
+    <img src="img/use_cabeca_aprenda_programar.jpg" alt="Use a cabeça!: aprenda a programar" width="180">
+</p>
+
+### **Use a cabeça!: aprenda a programar**
+
+---
 ## Estrutura do repositório
 
 Este repositório é organizado por obras estudadas.  
