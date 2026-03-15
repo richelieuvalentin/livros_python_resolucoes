@@ -7,5 +7,3 @@ human_age = dog_age * 7
 
 # Output para o usuário
 print(f"Your dog's age is {human_age}, years old in human years")
-
-

@@ -9,11 +9,16 @@ vezes de 20.
 dividendo = int(input("Digite o primeiro número: "))
 divisor = int(input("Digite o segundo número: "))
 quociente = 0
-resto = dividendo
+resto = 0
+# Teste a condição de divisão por zero
 if divisor == 0:
     print("Erro divisão por zero")
 else:
     while dividendo >= divisor:
-        quociente = quociente + 1
-        dividendo = dividendo - divisor
+        quociente = quociente + 1 # O quociente é um contador incrementado a cada volta
+        dividendo = dividendo - divisor # A cada volta retiramos o divisor uma vez do dividendo
+    resto = dividendo # O resto é próprio dividendo já que a condição "dividendo >= divisor" ficou falsa.
+
+print(f"Quociente: {quociente}")
+print(f"Resto: {resto}")
 
