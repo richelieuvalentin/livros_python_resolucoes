@@ -1,4 +1,4 @@
-# Pergunta ao usuário o nome e idade do cachorroe guarda em variavéis
+# Pergunta ao usuário o nome e idade do cachorro e guarda em variavéis
 dog_name = input("What is your dog's name? ")
 dog_age = int(input("What is your dog's age? "))
 
