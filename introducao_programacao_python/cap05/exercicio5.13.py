@@ -19,20 +19,29 @@ if pagamento_mensal <= divida * JURO_MENSAL:
     print("O pagamento mensal é insuficiente para quitar a dívida.")
 else:
     while divida > 0:
-        # Capitaliza a dívida inicial e subtrae o pagamento mensal
-        divida = divida * (1 + JURO_MENSAL) - pagamento_mensal
+        # Capitaliza a dívida inicial
+        divida = divida * (1 + JURO_MENSAL)
 
         # Contador para o prazo
         prazo += 1
+
+        # Verifica se é o último mês
+        if divida <= pagamento_mensal:
+            total_pago += divida
+            divida = 0
+        # Realiza os pagamentos mensais e soma ao total pago
+        else:
+            divida -= pagamento_mensal
+            total_pago += pagamento_mensal
+
         print(f"No mês {prazo} a dívida é : R$ {divida:.2f}")
-        total_pago = pagamento_mensal * prazo
 
-juros_pago = total_pago - divida_inicial
+    # Calcula o juros
+    juros_pago = total_pago - divida_inicial
 
-
-# Output das informações
-print(
-    f"Prazo total: {prazo} meses\n"
-    f"Juros pago: R$ {juros_pago}\n"
-    f"Total pago: R$ {total_pago} "
-)
+    # Output das informações
+    print(
+        f"Prazo total: {prazo} meses\n"
+        f"Juros pago: R$ {juros_pago:.2f}\n"
+        f"Total pago: R$ {total_pago:.2f} "
+    )

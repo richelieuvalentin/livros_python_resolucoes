@@ -13,13 +13,17 @@ total = deposito_inicial
 depositos_mensais = 0 # Inicializamos a variavel com 0, ainda não fizemos nenhum deposito
 
 while mes <= prazo:
+
     # Recebe o valor do depósito do mês
     deposito_mes = float(input("Informe o valor do deposito do mês: "))
+
     # acumula os depositos mensais
     depositos_mensais = depositos_mensais + deposito_mes
+
     # Multiplica o total por 1 + taxa e só depois soma o depósito
     total = total * (1 + TAXA_JUROS) + deposito_mes
     print(f"Mês {mes} - Deposito do mês: {deposito_mes} - Total no mês R$ {total:.2f}")
+
     # Contador para o prazo
     mes = mes + 1
 
